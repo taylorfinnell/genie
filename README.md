@@ -88,22 +88,22 @@ You may show job progress with the `-p` flag. You may also limit the results wit
 genie search %jim% -l 5 -p
 ```
 
-You may show job progress with the `-p` flag. You may also limit the results with the `-l` flag.
-
 **Get Job Status**
 
 ```
   genie status <id>
 ```
 
+You may show job progress with the `-p` flag. You may also limit the results with the `-l` flag.
+
+```
+genie status <id> -l 5 -p
+```
+
 **Open Job Output**
 
 ```
   genie open <id>
-```
-
-```
-genie status <id> -l 5 -p
 ```
 
 **Kill a Job**
